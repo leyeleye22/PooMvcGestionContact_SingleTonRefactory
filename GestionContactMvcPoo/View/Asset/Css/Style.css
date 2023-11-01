@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25%;
+}
+
+.disconnect {}
+
+nav ul {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li img {
+    height: 30px;
+    /* Ajustez la taille de l'image selon vos besoins */
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style des inputs text */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style de la case à cocher (checkbox) */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.imga img {
+    width: 7%;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+/* Style du bouton */
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style en cas de survol du bouton */
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin-left: 70%;
+    background-color: red;
+    color: #fff;
+    border: 2px solid #d00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
